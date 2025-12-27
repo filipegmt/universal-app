@@ -1,12 +1,12 @@
 import React from "react";
-import edificio from "../assets/edificio.jpg";
+import funerariaUniversal from "../assets/funeraria-universal.jpg";
 import escritorio from "../assets/escritorio.jpg";
 import carrinha from "../assets/carrinha.jpg";
 
 const Gallery = () => {
   const images = [
     {
-      url: edificio,
+      url: funerariaUniversal,
       caption: "Edifício",
     },
     {
@@ -49,7 +49,11 @@ const Gallery = () => {
               <img
                 src={img.url}
                 alt={img.caption}
-                className="w-full h-full object-cover transition duration-700 group-hover:scale-110"
+                className={`w-full h-full object-cover transition duration-700 group-hover:scale-110 ${
+                  index === 0
+                    ? "object-[50%_75%] md:object-bottom"
+                    : "object-center"
+                }`}
               />
 
               {/* Overlay Escuro no Hover */}
