@@ -3,7 +3,7 @@ import caixao from "../assets/caixao.jpeg";
 
 const About = () => {
   return (
-    <section id="sobre" className="py-24 px-4 bg-white">
+    <section id="sobre" className="py-12 md:py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>

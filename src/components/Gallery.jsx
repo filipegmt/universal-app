@@ -20,7 +20,10 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="galeria" className="py-24 bg-white border-b border-zinc-100">
+    <section
+      id="galeria"
+      className="py-12 md:py-20 bg-white border-b border-zinc-100"
+    >
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-primary font-bold tracking-widest uppercase text-xs mb-2 block">

@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 
 const Contacts = () => {
   return (
-    <section id="contactos" className="py-24 bg-zinc-50">
+    <section id="contactos" className="py-12 md:py-20 bg-zinc-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-serif text-5xl mb-6 text-zinc-900">

@@ -23,7 +23,7 @@ const Testimonials = () => {
   return (
     <section
       id="testemunhos"
-      className="py-24 bg-zinc-50 border-b border-zinc-200"
+      className="py-12 md:py-20 bg-zinc-50 border-b border-zinc-200"
     >
       <div className="max-w-7xl mx-auto px-4">
         {/* Cabeçalho da Secção */}

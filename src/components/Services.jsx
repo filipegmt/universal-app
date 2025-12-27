@@ -86,7 +86,7 @@ const Services = () => {
   };
 
   return (
-    <section id="servicos" className="py-24 px-4 bg-secondary">
+    <section id="servicos" className="py-12 md:py-20 px-4 bg-secondary">
       <div className="max-w-7xl mx-auto">
         <h2 className="font-serif text-5xl mb-16 text-center text-zinc-900">
           Os Nossos Serviços
