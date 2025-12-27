@@ -43,7 +43,7 @@ const Hero = () => {
             <img
               src={funerariaUniversal}
               alt="Paz e Conforto"
-              className="w-full h-64 md:h-[600px] object-cover rounded-[2rem] shadow-2xl transition duration-1000"
+              className="w-full h-64 md:h-[600px] object-cover object-[50%_75%] md:object-bottom rounded-[2rem] shadow-2xl transition duration-1000"
             />
           </div>
         </div>
