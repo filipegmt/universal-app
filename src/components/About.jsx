@@ -7,9 +7,9 @@ const About = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="text-primary font-bold tracking-widest uppercase text-xs mb-2 block">
+            <div className="inline-block p-2 px-4 rounded-full bg-orange-50 text-primary text-xs font-bold tracking-widest uppercase mb-4">
               Sobre Nós
-            </span>
+            </div>
             <h2 className="font-serif text-5xl mb-6">
               Uma história de confiança e respeito.
             </h2>

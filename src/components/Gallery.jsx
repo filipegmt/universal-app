@@ -26,9 +26,9 @@ const Gallery = () => {
     >
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="text-primary font-bold tracking-widest uppercase text-xs mb-2 block">
+          <div className="inline-block p-2 px-4 rounded-full bg-orange-50 text-primary text-xs font-bold tracking-widest uppercase mb-4">
             A Nossa Estrutura
-          </span>
+          </div>
           <h2 className="font-serif text-4xl md:text-5xl mb-6 text-zinc-900">
             Dignidade em cada detalhe
           </h2>
